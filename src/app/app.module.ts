@@ -8,6 +8,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SearchResultPage } from '../pages/search-result/search-result';
+import { MobileNumbersPage } from '../pages/mobile-numbers/mobile-numbers';
 
 import { SearchFilterPage } from '../pages/search-filter/search-filter';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -26,7 +27,8 @@ import { RestProvider } from '../providers/rest/rest';
     HomePage,
     TabsPage,
     SearchResultPage,
-    SearchFilterPage
+    SearchFilterPage,
+    MobileNumbersPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +44,7 @@ import { RestProvider } from '../providers/rest/rest';
     TabsPage,
     SearchResultPage,
     SearchFilterPage,
-     
+    MobileNumbersPage
   ],
   providers: [
     StatusBar,

@@ -29,7 +29,7 @@ Application: Auto Market
 8. FEATURED LISTS
 9. POPUPS
 10. WIDGETS
-    10-1 CARD
+    10-1 CARDS
     10-2 MAPS
     10-3 COMMENTS WIDGET
     10-4 DATE PICKER 
@@ -140,6 +140,14 @@ blockquote span {
 }
 
 
+.container-title {
+    font-size: 18px;
+    color: #DC3832;
+    font-weight: 600;
+    margin: 0px;
+}
+
+
 /*===============================================*/
 
 
@@ -192,8 +200,18 @@ blockquote span {
 
 
 /*===============================================*/
+.phone-number-content .scroll-content {
+    padding: 0px !important;
+}
+.phone-numeber-even-container {
+    background-color: #fff;
+}
+.phone-numeber-odd-container {
+    background-color: #ebebeb;
+}
 
 /* 7-1. PAGES HEADER */
+
 
 /* 7-1. PROFILE LAYOUT */
 
@@ -227,6 +245,25 @@ blockquote span {
 
 /* 10-1 CARD */
 
+.card-phone-number {
+    position: relative;
+    display: inline;
+}
+.card-phone-number .phone-details {
+    padding: 10px;
+    height: 30px;
+    background-color: #5b5b5b !important;
+    color: #eee;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card-phone-number .phone-details span {
+    display: inline-block;
+}
+.card-phone-number.card-md {
+    margin: 0px !important;
+}
 /* 10-2 MAPS */
 
 /* 10-3 COMMENTS WIDGET */
@@ -1021,6 +1058,12 @@ blockquote span {
     width: 100%;
 }
 
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
 
 /*===============================================*/
 
