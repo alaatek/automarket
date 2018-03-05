@@ -1,0 +1,1059 @@
+/*==============================================
+[Main stylesheet style.css]
+
+Author: Alaa Tekleh
+Version:  1.0
+Created:  5 March 2018
+Last updated: 5 March 2018
+Application: Auto Market
+================================================*/
+
+
+/*
+[Table of Contents]
+
+1. RESET
+2. GENERAL
+3. CUSTOM BUTTONS
+4. LEFT AND RIGHT SLIDE PANELS
+    4-1. LEFT SLIDE PANEL
+  4-2. RIGHT SLIDE PANEL
+5. MAIN NAVIGATION POPUP AND FOOTER TOOLBAR
+  5-1. MAIN NAVIGATION
+  5-2. FOOTER TOOLBAR
+6. HOME PAGE LAYOUT
+    6-1. HOME PAGE WITH SLIDER
+7. PAGES LAYOUT
+    7-1. PAGES HEADER
+    7-2. PROFILE LAYOUT
+8. FEATURED LISTS
+9. POPUPS
+10. WIDGETS
+    10-1 CARD
+    10-2 MAPS
+    10-3 COMMENTS WIDGET
+    10-4 DATE PICKER 
+    10-5 PRAY TIME TABLE
+11. PHOTO GALLERY
+12. BLOG LAYOUT
+13. FORMS
+  13-1. CONTACT FORM
+  13-2. LOGIN / SIGNUP / FORGOT PASS FORM
+  13-3. COMMENT FORM
+14. TABS & ACCORDION
+15. MEDIA QUERIES
+    - @media screen and (max-width: 480px)
+16. HELPER CLASSES
+17. MISCELLANEOUS CLASSES 
+18. COLORS
+19. ANIMATIONS 
+20. MISCELLANEOUS
+*/
+
+
+/*===============================================*/
+
+
+/* 1. RESET                */
+
+
+/*===============================================*/
+
+@import "reset.css";
+
+/*===============================================*/
+
+
+/* 2. GENERAL                */
+
+
+/*===============================================*/
+
+html, body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #232323;
+    font-size: 14px;
+    line-height: 1.4;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    overflow: hidden;
+    font-weight: 300;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}
+
+.clearleft {
+    clear: both;
+    float: left;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+    line-height: 20px;
+}
+
+blockquote {
+    padding: 0 0 15px 0;
+    margin: 5px 0 15px 0;
+    font-size: 18px;
+    border-bottom: 3px solid #ececec;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+blockquote span {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+
+.videocontainer {
+    max-width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+
+#mobile_wrap {
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+/*===============================================*/
+
+
+/* 3. CUSTOM BUTTONS */
+
+
+/*===============================================*/
+
+
+/*===============================================*/
+
+
+/* 4. LEFT AND RIGHT SLIDE PANELS */
+
+
+/*===============================================*/
+
+/* 4-1. LEFT SLIDE PANEL */
+
+/* 4-2. RIGHT SLIDE PANEL */
+
+
+/*===============================================*/
+
+
+/* 5. MAIN NAVIGATION POPUP AND FOOTER TOOLBAR */
+
+
+/*===============================================*/
+
+
+/* 5-1. MAIN NAVIGATION */
+
+/*5-2. FOOTER TOOLBAR */
+
+/*===============================================*/
+
+
+/* 6. HOME PAGE LAYOUT */
+
+
+/*===============================================*/
+
+/* 6-1. HOME PAGE WITH SLIDER */
+
+/*===============================================*/
+
+
+/* 7. PAGES LAYOUT */
+
+
+/*===============================================*/
+
+/* 7-1. PAGES HEADER */
+
+/* 7-1. PROFILE LAYOUT */
+
+
+/*===============================================*/
+
+
+/* 8. FEATURED LISTS */
+
+
+/*===============================================*/
+
+
+/*===============================================*/
+
+
+/* 9. POPUPS */
+
+
+/*===============================================*/
+
+
+/*===============================================*/
+
+
+/* 10. WIDGETS */
+
+
+/*===============================================*/
+
+
+/* 10-1 CARD */
+
+/* 10-2 MAPS */
+
+/* 10-3 COMMENTS WIDGET */
+
+/* 10-3 DATE PICKER */
+
+/* 10-4 PRAY TIME TABLE */
+
+
+/*===============================================*/
+
+
+/* 11. PHOTO GALLERY */
+
+
+/*===============================================*/
+
+
+
+/*===============================================*/
+
+
+/* 12. BLOG LAYOUT */
+
+
+/*===============================================*/
+
+/*===============================================*/
+
+
+/* 13. FORMS */
+
+
+/*===============================================*/
+
+
+/* 13.1 CONTACT FORM */
+
+
+
+/* 13-2. LOGIN / SIGNUP / FORGOT PASS FORM */
+
+
+
+/*===============================================*/
+
+
+/* 14. TABS & ACCORDION */
+
+
+/*===============================================*/
+
+/*===============================================*/
+
+
+/* 15. MEDIA QUERIES */
+
+
+/*===============================================*/
+
+@media screen and (max-width: 680px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}
+
+
+/*===============================================*/
+
+
+/* 16. HELPER CLASSES */
+
+
+/*===============================================*/
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.nott {
+    text-transform: none !important;
+}
+
+.tright {
+    text-align: right !important;
+}
+
+.tleft {
+    text-align: left !important;
+}
+
+.fright {
+    float: right !important;
+}
+
+.fleft {
+    float: left !important;
+}
+
+.fnone {
+    float: none !important;
+}
+
+.ohidden {
+    position: relative;
+    overflow: hidden !important;
+}
+
+.nomargin {
+    margin: 0 !important;
+}
+
+.noborder {
+    border: none !important;
+}
+
+.noradius {
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.noabsolute {
+    position: relative !important;
+}
+
+.padding-100 {
+    padding: 100px;
+}
+
+.padding-90 {
+    padding: 90px;
+}
+
+.padding-80 {
+    padding: 80px;
+}
+
+.padding-70 {
+    padding: 70px;
+}
+
+.padding-60 {
+    padding: 60px;
+}
+
+.padding-40 {
+    padding: 40px;
+}
+
+.padding-30 {
+    padding: 30px;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-v-130 {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.padding-v-120 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.padding-v-110 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.padding-v-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.padding-v-90 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.padding-v-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.padding-v-70 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.padding-v-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.padding-v-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.padding-v-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.padding-v-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.padding-v-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.padding-v-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-h-130 {
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.padding-h-120 {
+    padding-left: 120px;
+    padding-right: 110px;
+}
+
+.padding-h-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.padding-h-90 {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.padding-h-80 {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.padding-h-70 {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.padding-h-60 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.padding-h-50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.padding-h-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.padding-h-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.padding-h-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding-h-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.padding-h-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.padding-t-400 {
+    padding-top: 400px !important;
+}
+
+.padding-t-350 {
+    padding-top: 350px !important;
+}
+
+.padding-t-300 {
+    padding-top: 300px !important;
+}
+
+.padding-t-250 {
+    padding-top: 250px !important;
+}
+
+.padding-t-200 {
+    padding-top: 200px !important;
+}
+
+.padding-t-150 {
+    padding-top: 150px !important;
+}
+
+.padding-t-140 {
+    padding-top: 140px !important;
+}
+
+.padding-t-130 {
+    padding-top: 130px !important;
+}
+
+.padding-t-120 {
+    padding-top: 120px !important;
+}
+
+.padding-t-110 {
+    padding-top: 110px !important;
+}
+
+.padding-t-100 {
+    padding-top: 100px !important;
+}
+
+.padding-t-90 {
+    padding-top: 90px !important;
+}
+
+.padding-t-80 {
+    padding-top: 80px !important;
+}
+
+.padding-t-70 {
+    padding-top: 70px !important;
+}
+
+.padding-t-60 {
+    padding-top: 60px !important;
+}
+
+.padding-t-50 {
+    padding-top: 50px !important;
+}
+
+.padding-t-40 {
+    padding-top: 40px !important;
+}
+
+.padding-t-30 {
+    padding-top: 30px !important;
+}
+
+.padding-t-20 {
+    padding-top: 20px !important;
+}
+
+.padding-t-15 {
+    padding-top: 15px !important;
+}
+
+.padding-t-10 {
+    padding-top: 10px !important;
+}
+
+.padding-t-0 {
+    padding-top: 0px !important;
+}
+
+.padding-b-170 {
+    padding-bottom: 170px;
+}
+
+.padding-b-160 {
+    padding-bottom: 160px;
+}
+
+.padding-b-150 {
+    padding-bottom: 150px;
+}
+
+.padding-b-140 {
+    padding-bottom: 140px;
+}
+
+.padding-b-130 {
+    padding-bottom: 130px;
+}
+
+.padding-b-120 {
+    padding-bottom: 120px;
+}
+
+.padding-b-110 {
+    padding-bottom: 110px;
+}
+
+.padding-b-100 {
+    padding-bottom: 100px;
+}
+
+.padding-b-90 {
+    padding-bottom: 90px;
+}
+
+.padding-b-80 {
+    padding-bottom: 80px;
+}
+
+.padding-b-70 {
+    padding-bottom: 70px;
+}
+
+.padding-b-60 {
+    padding-bottom: 60px;
+}
+
+.padding-b-50 {
+    padding-bottom: 50px;
+}
+
+.padding-b-40 {
+    padding-bottom: 40px;
+}
+
+.padding-b-30 {
+    padding-bottom: 30px;
+}
+
+.padding-b-20 {
+    padding-bottom: 20px;
+}
+
+.padding-b-15 {
+    padding-bottom: 15px;
+}
+
+.padding-b-10 {
+    padding-bottom: 10px;
+}
+
+.padding-b-0 {
+    padding-bottom: 0px;
+}
+
+.padding-l-0 {
+    padding-left: 0px;
+}
+
+.margin-2 {
+    margin:2px !important;
+}
+
+.margin-t-0 {
+    margin-top: 0px !important;
+}
+
+.margin-t-5 {
+    margin-top: 5px !important;
+}
+
+.margin-t-10 {
+    margin-top: 10px !important;
+}
+
+.margin-t-15 {
+    margin-top: 15px !important;
+}
+
+.margin-t-20 {
+    margin-top: 20px !important;
+}
+
+.margin-t-30 {
+    margin-top: 30px !important;
+}
+
+.margin-t-40 {
+    margin-top: 40px !important;
+}
+
+.margin-t-50 {
+    margin-top: 50px !important;
+}
+
+.margin-t-60 {
+    margin-top: 60px !important;
+}
+
+.margin-t-70 {
+    margin-top: 70px !important;
+}
+
+.margin-t-80 {
+    margin-top: 80px !important;
+}
+
+.margin-t-90 {
+    margin-top: 90px !important;
+}
+
+.margin-t-5-n {
+    margin-top: -5px !important;
+}
+
+.margin-t-10-n {
+    margin-top: -10px !important;
+}
+
+.margin-t-15-n {
+    margin-top: -15px !important;
+}
+
+.margin-t-20-n {
+    margin-top: -20px !important;
+}
+
+.margin-t-30-n {
+    margin-top: -30px !important;
+}
+
+.margin-b-0 {
+    margin-bottom: 0px !important;
+}
+
+.margin-b-5 {
+    margin-bottom: 5px !important;
+}
+
+.margin-b-10 {
+    margin-bottom: 10px !important;
+}
+
+.margin-b-15 {
+    margin-bottom: 15px !important;
+}
+
+.margin-b-20 {
+    margin-bottom: 20px !important;
+}
+
+.margin-b-30 {
+    margin-bottom: 30px !important;
+}
+
+.margin-b-40 {
+    margin-bottom: 40px !important;
+}
+
+.margin-b-50 {
+    margin-bottom: 50px !important;
+}
+
+.margin-b-60 {
+    margin-bottom: 60px !important;
+}
+
+.margin-b-70 {
+    margin-bottom: 70px !important;
+}
+
+.margin-b-80 {
+    margin-bottom: 80px !important;
+}
+
+.margin-b-90 {
+    margin-bottom: 90px !important;
+}
+
+.margin-h-10 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.margin-h-20 {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.margin-h-15-n {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+
+.margin-v-10 {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.margin-v-20 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.margin-v-30 {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.margin-l-10 {
+    margin-left: 10px !important;
+}
+
+.margin-l-20 {
+    margin-left: 20px !important;
+}
+
+.margin-l-30 {
+    margin-left: 30px !important;
+}
+
+.margin-r-10 {
+    margin-right: 10px !important;
+}
+
+.margin-r-20 {
+    margin-right: 20px !important;
+}
+
+.margin-r-30 {
+    margin-right: 30px !important;
+}
+
+.margin-r-40 {
+    margin-right: 40px !important;
+}
+
+.margin-r-50 {
+    margin-right: 50px !important;
+}
+
+.z-index-1 {
+    z-index: 1 !important;
+}
+
+.z-index-2 {
+    z-index: 2 !important;
+}
+
+.z-index-3 {
+    z-index: 3 !important;
+}
+
+.z-index-4 {
+    z-index: 4 !important;
+}
+
+.z-index-5 {
+    z-index: 5 !important;
+}
+
+.z-index-6 {
+    z-index: 6 !important;
+}
+
+.z-index-7 {
+    z-index: 7 !important;
+}
+
+.z-index-8 {
+    z-index: 8 !important;
+}
+
+.z-index-9 {
+    z-index: 9 !important;
+}
+
+.z-index-10 {
+    z-index: 10 !important;
+}
+
+.noshadow {
+    box-shadow: none !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.nothidden {
+    display: block !important;
+}
+
+.inline-block {
+    float: none !important;
+    display: inline-block !important;
+}
+
+.center {
+    text-align: center !important;
+}
+
+.divcenter {
+    position: relative !important;
+    float: none !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.nobg {
+    background: none !important;
+}
+
+.nobgcolor {
+    background-color: transparent !important;
+}
+
+.t100 {
+    font-weight: 100 !important;
+}
+
+.t200 {
+    font-weight: 200 !important;
+}
+
+.t300 {
+    font-weight: 300 !important;
+}
+
+.t400 {
+    font-weight: 400 !important;
+}
+
+.t500 {
+    font-weight: 500 !important;
+}
+
+.t600 {
+    font-weight: 600 !important;
+}
+
+.t700 {
+    font-weight: 700 !important;
+}
+
+.ls1 {
+    letter-spacing: 1px !important;
+}
+
+.ls2 {
+    letter-spacing: 2px !important;
+}
+
+.ls3 {
+    letter-spacing: 3px !important;
+}
+
+.ls4 {
+    letter-spacing: 4px !important;
+}
+
+.ls5 {
+    letter-spacing: 5px !important;
+}
+
+.noheight {
+    height: 0 !important;
+}
+
+.nolineheight {
+    line-height: 0 !important;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+/*===============================================*/
+
+
+/* 17. MISCELLANEOUS CLASSES */
+
+
+/*===============================================*/
+
+
+/*===============================================*/
+
+
+/* 18. COLORS */
+
+
+/*===============================================*/
+
+
+
+/*===============================================*/
+
+
+/* 19. ANIMATIONS */
+
+
+/*===============================================*/
+
+
+/*===============================================*/
+
+
+/* 20. MISCELLANEOUS */
+
+
+/*===============================================*/
