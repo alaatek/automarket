@@ -1,0 +1,115 @@
+// http://ionicframework.com/docs/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.tabs-md .tabbar {
+    background: #ed1c24;
+}
+.tabs-md .tab-button {
+    min-height: 5.6rem;
+    font-weight: bold;
+    color: white;
+    border-left-color: #8a8383;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+.tab-button-text, .tab-button-icon{
+  max-width: 60%!important;
+}
+.tabs-md .tab-button-text {
+    font-size: 0.8rem;
+}
+.footer{
+	background-color:#363636;
+}
+.buttom_col{
+	border-left-color: #8a8383;
+    border-left-width: 1px;
+    border-left-style: solid;
+    color:white;
+    height: 80%;
+    padding:0px;
+    margin-top: 35px;
+    border-top-style: solid;
+    border-top-color: #ed1c24;
+}
+.buttom_button{
+    background-color:#363636;
+    padding:0px;
+    //opacity:0;
+}
+.ion-ios-cars,
+.ion-md-cars {
+  content: url(../assets/icon/cat_car.png);
+
+}
+.ion-ios-bikes,
+.ion-md-bikes {
+  content: url(../assets/icon/cat_bike.png);
+}
+.ion-ios-trucks,
+.ion-md-trucks {
+  content: url(../assets/icon/cat_trucks.png);
+}
+.ion-ios-boats,
+.ion-md-boats {
+  content: url(../assets/icon/cat_boats.png);
+}
+.ion-ios-phones,
+.ion-md-phones {
+  content: url(../assets/icon/cat_phones.png);
+}
+.ion-ios-cars_numbers,
+.ion-md-cars_numbers {
+  content: url(../assets/icon/cat_cars.png);
+
+}
+
+.ion-ios-search,
+.ion-md-search {
+  content: url(../assets/icon/bra_search.png);
+  width: 5rem;
+}
+
+.ion-ios-m3ard,
+.ion-md-m3ard {
+  content: url(../assets/icon/bar_home.png);
+  width: 5rem;
+}
+.ion-ios-add_ad,
+.ion-md-add_ad {
+  content: url(../assets/icon/bar_add.png);
+  width: 5rem;
+}
+.ion-ios-chats,
+.ion-md-chats {
+  content: url(../assets/icon/bar_chats.png);
+  width: 5rem;
+}
+.ion-ios-my_account,
+.ion-md-my_account {
+  content: url(../assets/icon/bar_profile.png);
+  width: 5rem;
+}
+
+
+
+.button-md{
+    margin:0px;
+    height: 100%;
+}
+
+
