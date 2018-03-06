@@ -5,6 +5,8 @@ import { NavController,LoadingController  } from 'ionic-angular';
 import { RestProvider } from '../../providers/rest/rest';
 import { SearchResultPage } from '../search-result/search-result';
 import { SearchFilterPage } from '../search-filter/search-filter';
+import { AddAdvertismentPage } from '../add-advertisment/add-advertisment';
+
 @Component({
   selector: 'page-contact',
   templateUrl: 'contact.html',
@@ -49,6 +51,11 @@ export class ContactPage {
   ShowFilter(){
     this.navCtrl.push(SearchFilterPage);
   }
+
+  showAddAdvertisment() {
+    this.navCtrl.push(AddAdvertismentPage);
+  }
+
  /* getcategory_content(cat_id){
   	var cars = ["Saab", "Volvo", "BMW"];
   	/*this.restProvider.get_Category_items(cat_id)

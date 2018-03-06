@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 
 import { RestProvider } from '../providers/rest/rest';
+import { AddAdvertismentPage } from '../pages/add-advertisment/add-advertisment';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { RestProvider } from '../providers/rest/rest';
     TabsPage,
     SearchResultPage,
     SearchFilterPage,
-    MobileNumbersPage
+    MobileNumbersPage,
+    AddAdvertismentPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +46,8 @@ import { RestProvider } from '../providers/rest/rest';
     TabsPage,
     SearchResultPage,
     SearchFilterPage,
-    MobileNumbersPage
+    MobileNumbersPage,
+    AddAdvertismentPage
   ],
   providers: [
     StatusBar,
