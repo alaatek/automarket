@@ -11,7 +11,7 @@ import { SearchResultPage } from '../pages/search-result/search-result';
 import { MobileNumbersPage } from '../pages/mobile-numbers/mobile-numbers';
 import { AddAdvertismentPage } from '../pages/add-advertisment/add-advertisment';
 import { ProfilePage } from '../pages/profile/profile';
-
+import { EditProfileModalPage } from '../pages/edit-profile-modal/edit-profile-modal';
 
 import { SearchFilterPage } from '../pages/search-filter/search-filter';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -32,7 +32,8 @@ import { RestProvider } from '../providers/rest/rest';
     SearchFilterPage,
     MobileNumbersPage,
     AddAdvertismentPage,
-    ProfilePage
+    ProfilePage,
+    EditProfileModalPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +51,8 @@ import { RestProvider } from '../providers/rest/rest';
     SearchFilterPage,
     MobileNumbersPage,
     AddAdvertismentPage,
-    ProfilePage
+    ProfilePage,
+    EditProfileModalPage
   ],
   providers: [
     StatusBar,

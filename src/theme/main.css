@@ -140,6 +140,13 @@ blockquote span {
     font-weight: 600;
     margin: 0px;
 }
+.automarket-navbar .toolbar-background {
+    background-color:  #DC3832 !important;
+    
+}
+.automarket-navbar ion-title .toolbar-title {
+    color: #f1f1f1 !important; 
+}
 
 h1,
 h2,
@@ -406,7 +413,29 @@ h6 {
     font-weight: bold;
 }
 
+/* EDIT PROFILE MODAL */
+.edit-profile-content input,
+.edit-profile-content ion-textarea,
+.edit-profile-content ion-datetime {
+    text-align: right;
+    color: #c7c7c7;
+    font-weight: 600;
+}
 
+.submit-edit-profile {
+    background-color: #D53731 !important;
+    font-weight: bold;
+    font-size: 20px !important;
+    height: 50px !important;
+    margin-top: 15px !important;
+}
+
+.close-label {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: #e7e7e7;
+}
 /*===============================================*/
 
 
@@ -467,6 +496,12 @@ h6 {
 
 /* 10-4 DATE PICKER */
 
+.picker-prefix, .picker-suffix, .picker-opt.picker-opt-selected {
+    color: #D53731 !important;
+}
+.picker-md .picker-button, .picker-md .picker-button.activated {
+    color: #D53731 !important;
+}
 
 /* 10-5 ALERT DIALOG */
 
@@ -534,7 +569,6 @@ h6 {
     font-size: 18px;
     font-weight: bold;
 }
-
 
 /* 10-6 BADGES */
 

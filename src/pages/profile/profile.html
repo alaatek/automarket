@@ -12,7 +12,7 @@
 <ion-content class="profile-content" no-padding>
   <div class="my-account">
     <div class="my-account-header bg-dark">
-      <h2 class="section-title white padding-h-20"> حسابي </h2>
+      <h2 class="section-title white padding-h-20" (click)="closeModal()"> حسابي </h2>
     </div>
     <div class="my-account-content bg-grey">
       <div class="personal-info">
@@ -45,11 +45,11 @@
         </div>
       </div>
       <div class="edit-my-account">
-        <button ion-button class="edit-profile-button white" clear>تعديل البيانات</button>
+        <button ion-button class="edit-profile-button white" clear (click)="openEditProfileModal()">تعديل البيانات</button>
       </div>
     </div>
     <div class="profile-image">
-      <img src="assets/imgs/profile-image.jpg" />
+      <img src="assets/imgs/profile-image.jpg" (click)="editImage()" />
     </div>
   </div>
   <ion-list no-padding no-margin>
