@@ -9,7 +9,6 @@ import { SearchFilterPage } from '../search-filter/search-filter';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-search-result',
   templateUrl: 'search-result.html',

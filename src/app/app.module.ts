@@ -9,6 +9,9 @@ import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SearchResultPage } from '../pages/search-result/search-result';
 import { MobileNumbersPage } from '../pages/mobile-numbers/mobile-numbers';
+import { AddAdvertismentPage } from '../pages/add-advertisment/add-advertisment';
+import { ProfilePage } from '../pages/profile/profile';
+
 
 import { SearchFilterPage } from '../pages/search-filter/search-filter';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,9 +19,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 
-
 import { RestProvider } from '../providers/rest/rest';
-import { AddAdvertismentPage } from '../pages/add-advertisment/add-advertisment';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { AddAdvertismentPage } from '../pages/add-advertisment/add-advertisment'
     SearchResultPage,
     SearchFilterPage,
     MobileNumbersPage,
-    AddAdvertismentPage
+    AddAdvertismentPage,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { AddAdvertismentPage } from '../pages/add-advertisment/add-advertisment'
     SearchResultPage,
     SearchFilterPage,
     MobileNumbersPage,
-    AddAdvertismentPage
+    AddAdvertismentPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,

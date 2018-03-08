@@ -8,7 +8,6 @@ import { RestProvider } from '../../providers/rest/rest';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
 @Component({
   selector: 'page-search-filter',
   templateUrl: 'search-filter.html',

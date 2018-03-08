@@ -54,16 +54,6 @@ Application: Auto Market
 /*===============================================*/
 
 
-/* 1. RESET                */
-
-
-/*===============================================*/
-
-@import "reset.css";
-
-/*===============================================*/
-
-
 /* 2. GENERAL                */
 
 
@@ -149,6 +139,15 @@ blockquote span {
     color: #DC3832;
     font-weight: 600;
     margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px !important;
 }
 
 
@@ -255,11 +254,13 @@ blockquote span {
     color: #D53731;
     text-decoration: underline;
 }
+
 .add-advertisment-form {
     margin: 20px 0px 0px 0px !important;
 }
 
-.add-advertisment-form input,  .add-advertisment-form ion-textarea{
+.add-advertisment-form input,
+.add-advertisment-form ion-textarea {
     text-align: right;
     color: #c7c7c7;
     font-weight: 600;
@@ -279,6 +280,7 @@ blockquote span {
     background-color: #555555;
     position: relative;
 }
+
 .add-advertisment-images .image-container .empty-content {
     display: block;
     text-align: center;
@@ -287,12 +289,14 @@ blockquote span {
     transform: translate(-50%, -50%);
     left: 50%;
 }
+
 .add-advertisment-images .image-container .empty-content span {
     display: block;
     color: #e7e7e7;
     font-weight: bold;
     font-size: 10px;
 }
+
 .add-advertisment-images .main-image-title {
     text-align: center;
     font-size: 8px;
@@ -308,10 +312,99 @@ blockquote span {
     height: 50px !important;
     margin-top: 15px !important;
 }
-/* 7-1. PAGES HEADER */
 
 
-/* 7-1. PROFILE LAYOUT */
+/* 7-3. PROFILE PAGE */
+
+.my-account-header {
+    height: 50px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.my-account-content {
+    padding: 25px 20px;
+}
+
+.personal-info .personal-info-row {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.personal-info .personal-info-row .title {
+    color: #a1a1a1;
+    margin-left: 5px;
+}
+
+.personal-info .personal-info-row .value {
+    color: #fff;
+}
+
+.profile-image {
+    position: absolute;
+    top: 30px;
+    left: 3%;
+}
+
+.profile-image img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.edit-my-account {
+    position: absolute;
+    left: 20px;
+    top: 278px;
+}
+
+.profile-list-item {
+    height: 100px;
+}
+
+.profile-list-item-icon {
+    margin-right: 15px !important;
+    position: relative;
+}
+
+.profile-list-item-icon ion-icon {
+    font-size: 48px !important;
+}
+
+.profile-list-item-description {
+    color: #fff;
+}
+
+.profile-content .list-md .item-block .item-inner {
+    border-bottom: 1px solid #000 !important;
+    border-top: 1px solid #444 !important;
+}
+
+.profile-content .custom-badge {
+    position: absolute;
+    top: -27px;
+    right: 27px;
+}
+
+.profile-list-item .icon-container {
+    float: right;
+    width: 70px;
+}
+
+.profile-list-item .description-container {
+    float: right;
+    padding-right: 25px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 
 /*===============================================*/
@@ -441,6 +534,18 @@ blockquote span {
     font-size: 18px;
     font-weight: bold;
 }
+
+
+/* 10-6 BADGES */
+
+.custom-badge {
+    border-radius: 50% !important;
+    background-color: #D53731 !important;
+    border: 1px solid #fff !important;
+    font-weight: bold !important;
+}
+
+
 /*===============================================*/
 
 
@@ -673,13 +778,13 @@ blockquote span {
 }
 
 .padding-v-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
 }
 
 .padding-v-10 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 .padding-h-130 {
@@ -1260,8 +1365,16 @@ blockquote span {
     color: #f1f1f1 !important;
 }
 
+.red {
+    color: #D53731;
+}
+
 .bg-grey {
     background-color: #383838 !important;
+}
+
+.bg-dark {
+    background-color: #252525 !important;
 }
 
 

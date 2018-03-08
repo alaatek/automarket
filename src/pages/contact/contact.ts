@@ -6,6 +6,7 @@ import { RestProvider } from '../../providers/rest/rest';
 import { SearchResultPage } from '../search-result/search-result';
 import { SearchFilterPage } from '../search-filter/search-filter';
 import { AddAdvertismentPage } from '../add-advertisment/add-advertisment';
+import { ProfilePage } from '../profile/profile';
 
 @Component({
   selector: 'page-contact',
@@ -56,6 +57,9 @@ export class ContactPage {
     this.navCtrl.push(AddAdvertismentPage);
   }
 
+  showProfilePage() {
+    this.navCtrl.push(ProfilePage);
+  }
  /* getcategory_content(cat_id){
   	var cars = ["Saab", "Volvo", "BMW"];
   	/*this.restProvider.get_Category_items(cat_id)
