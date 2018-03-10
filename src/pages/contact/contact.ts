@@ -8,6 +8,7 @@ import { SearchFilterPage } from '../search-filter/search-filter';
 import { AddAdvertismentPage } from '../add-advertisment/add-advertisment';
 import { ProfilePage } from '../profile/profile';
 import { ShowroomPage } from '../showroom/showroom';
+import { LoginPage } from '../login/login';
 
 @Component({
   selector: 'page-contact',
@@ -61,8 +62,13 @@ export class ContactPage {
   showProfilePage() {
     this.navCtrl.push(ProfilePage);
   }
+
   showShowrooms() {
     this.navCtrl.push(ShowroomPage);
+  }
+
+  openLoginPage() {
+    this.navCtrl.push(LoginPage);
   }
  /* getcategory_content(cat_id){
   	var cars = ["Saab", "Volvo", "BMW"];

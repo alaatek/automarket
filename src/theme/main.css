@@ -68,7 +68,7 @@ body {
 }
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
     margin: 0;
     padding: 0;
     color: #232323;
@@ -79,7 +79,9 @@ body {
     overflow: hidden;
     font-weight: 300;
 }
-
+ion-app {
+    font-family: 'Droid Arabic Kufi', sans-serif !important;
+}
 * {
     box-sizing: border-box;
 }
@@ -397,19 +399,25 @@ h6 {
 
 .profile-content .custom-badge {
     position: absolute;
-    top: -27px;
+    top: 0px;
     right: 27px;
 }
-
+.profile-list-item ion-label {
+    height: 100px !important;
+    display: flex;
+    align-items: center;
+}
 .profile-list-item .icon-container {
     float: right;
     width: 70px;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .profile-list-item .description-container {
     float: right;
     padding-right: 25px;
-    padding-top: 10px;
     font-size: 18px;
     font-weight: bold;
 }
@@ -496,17 +504,82 @@ h6 {
     text-align: center;
     padding: 10px;
 }
+
 .showroom .icons-container ion-icon {
-    padding:5px;
+    padding: 5px;
     color: #f7f7f7;
     font-size: 24px;
 }
+
 .showroom .icons-container ion-icon.like.liked {
     color: #b70505;
 }
 
 .showroom-search {
     height: 30px !important;
+}
+
+/* 7-6 LOGIN PAGE */
+.login-and-register-content ion-input {
+    color: #c1c1c1;
+}
+.login-section {
+    background-color: #363636;
+}
+.login-section .login-title {
+    color: #ebebeb;
+    font-size: 20px;
+}
+.login-section .login-subtitle {
+    color: #b4b4b4;
+    font-size: 12px;
+}
+.login-section ion-input,  .login-section ion-item {
+    background-color: #555555;
+}
+
+.login-section .login-button {
+    width: 200px !important;
+    height: 34px !important;
+    background-color: #ed1c24 !important;
+}
+
+.register-section {
+    background-color: #646464;
+}
+.register-section .register-title {
+    color: #ebebeb;
+    font-size: 20px;
+}
+.register-section .register-subtitle {
+    color: #cccccc;
+    font-size: 12px;
+}
+.register-section .register-button {
+    width: 200px !important;
+    height: 34px !important;
+    background-color: #363636 !important;
+}
+.register-section .account-type-row ion-item {
+    background-color: transparent !important;
+    padding-left: 10px;
+}
+.register-section .account-type-row ion-label {
+    color: #cccccc;
+}
+.register-section .account-type-checkbox {
+    margin: 0px !important;
+}
+.register-section .checkbox-md .checkbox-checked {
+    border-color: #363636 !important;
+    background-color: #363636 !important;
+}
+.register-section .checkbox-md .checkbox-icon {
+    border-color: #363636 !important;
+    background-color: #363636 !important;
+}
+.register-section ion-input,  .register-section ion-item {
+    background-color: #363636;
 }
 /* 
 showroom
@@ -572,7 +645,6 @@ icons-container
     margin: 0px !important;
 }
 
-
 .card-showroom {
     position: relative;
     display: block;
@@ -581,7 +653,7 @@ icons-container
 .card-showroom .showroom-details {
     padding: 5px;
     height: 30px;
-    background-color: rgba(0,0,0,0.7) !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
     color: #eee;
     font-weight: 500;
     font-size: 1rem;
@@ -590,19 +662,20 @@ icons-container
     bottom: 1px;
     height: 50px;
 }
+
 .card-showroom .showroom-details .item-date {
     color: #a1a1a1;
     font-size: 8px;
 }
-.card-showroom .showroom-details .item-location, .card-showroom .showroom-details .item-price {
+
+.card-showroom .showroom-details .item-location,
+.card-showroom .showroom-details .item-price {
     font-size: 0.9rem;
 }
+
 .card-showroom .showroom-details ion-icon {
     padding-right: 3px;
 }
-
-
-
 
 .card-showroom .showroom-details span {
     display: inline-block;
@@ -611,6 +684,7 @@ icons-container
 .card-showroom.card-md {
     margin: 0px !important;
 }
+
 
 /* 10-2 MAPS */
 
@@ -707,7 +781,7 @@ icons-container
     border: 1px solid #c2c2c2;
 }
 
-.light-controls ion-select {  
+.light-controls ion-select {
     background-color: #fff;
 }
 
@@ -752,6 +826,31 @@ icons-container
 }
 
 
+/* 10-7 INPUT GROUP */
+
+.input-group .input-addon {
+    background-color: #ed1c24;
+    color: white;
+    width: 44px;
+    padding: 0px;
+    margin: 0px !important;
+    position: absolute;
+    top: 0px;
+    height: 44px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group .text-input {
+    text-align: right !important;
+    padding-right: 44px !important;
+}
+
+.input-group .item-inner {
+    padding-right: 0px !important;
+}
+
 /*===============================================*/
 
 
@@ -790,8 +889,10 @@ icons-container
     border: none !important;
 }
 
-
-/* 13.1 CONTACT FORM */
+/* 13.2 MATERIAL DESIGN */
+.text-input-md {
+    margin: 0px 8px !important;
+}
 
 
 /* 13-2. LOGIN / SIGNUP / FORGOT PASS FORM */

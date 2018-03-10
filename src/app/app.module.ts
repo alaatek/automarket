@@ -13,6 +13,7 @@ import { AddAdvertismentPage } from '../pages/add-advertisment/add-advertisment'
 import { ProfilePage } from '../pages/profile/profile';
 import { EditProfileModalPage } from '../pages/edit-profile-modal/edit-profile-modal';
 import { ShowroomPage } from '../pages/showroom/showroom';
+import { LoginPage } from '../pages/login/login';
 
 import { SearchFilterPage } from '../pages/search-filter/search-filter';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -35,7 +36,8 @@ import { RestProvider } from '../providers/rest/rest';
     AddAdvertismentPage,
     ProfilePage,
     EditProfileModalPage,
-    ShowroomPage
+    ShowroomPage,
+    LoginPage
   ],
   imports: [
     BrowserModule,
@@ -55,7 +57,8 @@ import { RestProvider } from '../providers/rest/rest';
     AddAdvertismentPage,
     ProfilePage,
     EditProfileModalPage,
-    ShowroomPage
+    ShowroomPage,
+    LoginPage
   ],
   providers: [
     StatusBar,
