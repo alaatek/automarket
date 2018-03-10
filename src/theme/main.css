@@ -570,7 +570,7 @@ h6 {
 .register-section .account-type-checkbox {
     margin: 0px !important;
 }
-.register-section .checkbox-md .checkbox-checked {
+.register-section .checkbox-md .checkbox-checked, .checkbox-ios .checkbox-checked {
     border-color: #363636 !important;
     background-color: #363636 !important;
 }
@@ -722,22 +722,23 @@ icons-container
     border-color: #D53731 !important;
 }
 
-.alert-md .alert-radio-inner {
+.alert-md .alert-radio-inner  {
     background-color: #D53731 !important;
 }
-
-.alert-md [aria-checked=true] .alert-radio-label {
+.alert-ios [aria-checked=true] .alert-radio-inner {
+    border-color: #D53731 !important;
+}
+.alert-md [aria-checked=true] .alert-radio-label, .alert-ios [aria-checked=true] .alert-radio-label {
     color: #D53731 !important;
 }
 
-.alert-md .alert-button {
+.alert-md .alert-button, .alert-ios .alert-button {
     color: #D53731 !important;
 }
-
 
 /* 10-5 SELECT MENU */
 
-.select-md {
+ion-select, .select-md {
     padding: 13px 8px 13px 16px;
     max-width: 100% !important;
     width: 100% !important;
@@ -752,10 +753,9 @@ icons-container
     color: #999999 !important;
 }
 
-.dark-controls .select-md .select-icon .select-icon-inner {
+.dark-controls .select-md .select-icon .select-icon-inner, .dark-controls ion-select .select-icon .select-icon-inner {
     left: 5px;
     top: 50%;
-    margin-top: -10px;
     position: absolute;
     width: auto !important;
     height: auto !important;
@@ -766,7 +766,7 @@ icons-container
     font-family: "Ionicons";
 }
 
-.dark-controls .select-md .select-icon .select-icon-inner::before {
+.dark-controls .select-md .select-icon .select-icon-inner::before, .dark-controls ion-select .select-icon .select-icon-inner::before {
     content: "\f3d0";
     color: #c7c7c7;
     font-size: 18px;
@@ -794,10 +794,10 @@ icons-container
     color: #999999 !important;
 }
 
-.light-controls .select-md .select-icon .select-icon-inner {
-    left: 5px;
-    top: 50%;
-    margin-top: -10px;
+.light-controls .select-md .select-icon .select-icon-inner, .light-controls  ion-select .select-icon .select-icon-inner{
+    left: 0px;
+    top: 52%;
+    /* margin-top: -10px; */
     position: absolute;
     width: auto !important;
     height: auto !important;
@@ -808,7 +808,7 @@ icons-container
     font-family: "Ionicons";
 }
 
-.light-controls .select-md .select-icon .select-icon-inner::before {
+.light-controls .select-md .select-icon .select-icon-inner::before, .light-controls  ion-select .select-icon .select-icon-inner::before {
     content: "\f3d0";
     color: #D53731;
     font-size: 18px;
@@ -836,7 +836,7 @@ icons-container
     margin: 0px !important;
     position: absolute;
     top: 0px;
-    height: 44px;
+    height: 100%;
     font-size: 32px;
     display: flex;
     align-items: center;
